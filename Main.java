@@ -6,7 +6,7 @@ class Main{
         System.out.println("Enter operation (+, -, *, /, ^, sqrt):");
         String val3=input.nextLine();
         double val1=0, val2=0;
-        if (val3=="sqrt"){
+        if (val3.equals("sqrt")){
             System.out.println("Enter value:");
          val1=input.nextDouble();
         }
